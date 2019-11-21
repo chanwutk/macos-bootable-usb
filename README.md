@@ -1,6 +1,6 @@
 # A tutorial for creating a bootable usb in macOS
 
-## 1. Prepare image file
+## 1. Prepare the image file
 We need to convert the iso file to dmg file (assuming the file is in the `~/Download`)
 ```
 hdiutil convert -format UDRW -o ~/Download/path-to-output ~/Download/path-to-input.iso
