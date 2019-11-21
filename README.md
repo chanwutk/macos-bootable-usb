@@ -1,4 +1,4 @@
-# A tutorial to create a bootable usb in macOS
+# A tutorial for creating a bootable usb in macOS
 
 ## 1. Prepare image file
 We need to convert the iso file to dmg file (assuming the file is in the `~/Download`)
