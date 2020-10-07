@@ -3,7 +3,7 @@
 ## 1. Prepare the image file
 We need to convert the iso file to dmg file (assuming the file is in the `~/Download`)
 ```
-hdiutil convert -format UDRW -o ~/Download/path-to-output ~/Download/path-to-input.iso
+hdiutil convert -format UDRW -o ~/Downloads/path-to-output ~/Downloads/path-to-input.iso
 ```
 
 ## 2. Unmounting the USB Device
@@ -22,5 +22,5 @@ diskutil unmountDisk /dev/diskN
 ## 3. Creating the bootable USB
 run this command
 ```
-sudo dd if=~/Download/path-to-output.dmg of=/dev/rdiskN bs=1m
+sudo dd if=~/Downloads/path-to-output.dmg of=/dev/rdiskN bs=1m
 ```
