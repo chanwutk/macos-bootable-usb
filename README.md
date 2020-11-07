@@ -28,8 +28,8 @@ diskutil unmountDisk /dev/disk2
 ## 3. Creating the bootable USB
 run this command
 ```
-sudo dd bs=1m if=~/Downloads/path-to-output.dmg of=/dev/rdiskN
+sudo dd bs=1m of=/dev/rdiskN if=~/Downloads/path-to-output.dmg
 
 # if N == 2 and output == 'output-install-os.dmg':
-sudo dd bs=1m if=~/Downloads/output-install-os.dmg of=/dev/rdiskN
+sudo dd bs=1m of=/dev/rdisk2 if=~/Downloads/output-install-os.dmg
 ```
