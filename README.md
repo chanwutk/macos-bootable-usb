@@ -6,7 +6,7 @@ We need to convert the iso file to dmg file (assuming the file is in the `~/Down
 hdiutil convert -format UDRW -o ~/Downloads/path-to-output ~/Downloads/path-to-input.iso
 
 # if output == 'output-install-os.dmg'
-hdiutil convert -format UDRW -o ~/Downloads/output-install-os ~/Downloads/path-to-input.iso
+hdiutil convert -format UDRW -o ~/Downloads/output-install-os ~/Downloads/os.iso
 ```
 
 ## 2. Unmounting the USB Device
